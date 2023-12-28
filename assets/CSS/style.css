@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* JS */
+
+.show {
+  display: flex;
+}
+
+.notShow{
+  display: none;
+}
+
+.taiKhoan{
+  padding: 80px 0;
+  background-color: var(--color-pink);
+  display: flex;
+  justify-content: center;
+}
+.taiKhoan .form{
+  width: 80%;
+  min-height: 400px;
+}
+.taiKhoan-row{
+  display: flex;
+  align-items: center;
+}
+
+.taiKhoan-row .form-control{
+  width: 75%;
+}
+
+
+.taiKhoan-row .btn{
+  flex: 1;
+  color: white;
+  margin: 0;
+  margin-left: 15px;
+}
+
+.popup{
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+}
+.popup .form-group{
+  width: 100%;
+  align-items: start;
+}
+.popup .btn{
+  border-radius: 5px;
+  width: 120px;
+  height: 44px;
+  margin: 20px;
+}
+
+  /* End login */
